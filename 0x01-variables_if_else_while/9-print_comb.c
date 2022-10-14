@@ -1,4 +1,4 @@
-nclude <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 
@@ -18,7 +18,7 @@ int main(void)
 		if (d != '9')
 		{
 			putchar(',');
-			putchar(' ');	
+			putchar(' ');
 		}
 	}
 	putchar('\n');
