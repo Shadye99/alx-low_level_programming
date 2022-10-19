@@ -1,11 +1,18 @@
-#include <stdio.h>
+#include "main.h"
+/**
+ * main - prints _putchar, fllowd by a new linees
+ * Return: Alwys 0 (Success)
+ */
+int main(void)
+{
+	char abe[] = "_putchar";
 
-int main () {
-   int ch;
+	int c;
 
-   for( ch = 75 ; ch <= 100; ch++ ) {
-      printf("ASCII value = %d, Character = %c\n", ch , ch );
-   }
-
-   return(0);
+	for (c = 0; c < 8; c++)
+	{
+		_putchar(abe[c]);
+	}
+	_putchar('\n');
+	return (0);
 }
